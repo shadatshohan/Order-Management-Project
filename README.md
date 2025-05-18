@@ -4,8 +4,8 @@ An Order Management System built using PHP Laravel with role-based access contro
 🔗<a href="https://agora.naturalboostbd.com" target="_blank">https://agora.naturalboostbd.com</a>
 
 ---
-[![Watch the demo]
-🎥 (https://img.youtube.com/vi/ZGJdxqAC6jY/0.jpg)](https://www.youtube.com/watch?v=ZGJdxqAC6jY)
+Watch the demo below:
+🎥 [![Watch the demo](https://img.youtube.com/vi/ZGJdxqAC6jY/0.jpg)](https://www.youtube.com/watch?v=ZGJdxqAC6jY)
 
 
 
