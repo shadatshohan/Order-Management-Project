@@ -46,7 +46,7 @@ An Order Management System built using PHP Laravel with role-based access contro
 ## 🛠️ Installation & Running Locally
 
 ### Prerequisites
-- PHP >= 8.2
+- PHP >= 8.0
 - Composer
 - Laravel >= 10
 - MySQL / MariaDB
