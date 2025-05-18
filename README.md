@@ -30,7 +30,7 @@ An Order Management System built using PHP Laravel with role-based access contro
 
 ### 🟨 User
 - Users must **create their own account** by registering on the site:  
-  [https://agora.naturalboostbd.com/register](https://agora.naturalboostbd.com/register)
+  [[https://agora.naturalboostbd.com/register](https://agora.naturalboostbd.com/auth/register)
 
 ---
 
@@ -46,7 +46,7 @@ An Order Management System built using PHP Laravel with role-based access contro
 ## 🛠️ Installation & Running Locally
 
 ### Prerequisites
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - Laravel >= 10
 - MySQL / MariaDB
