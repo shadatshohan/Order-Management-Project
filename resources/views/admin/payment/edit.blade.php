@@ -23,24 +23,21 @@
                         <select name="paymentType" id=""
                             class="form-control @error('paymentType') is-invalid @enderror">
                             <option value="">Choose Payment Type...</option>
-                            <option value="KBZPay" @if (old('paymentType', $payment->type) == 'KBZPay') selected @endif>KBZ Pay
+                            <option value="">Choose your payment...</option>
+                                    <option value="Cash on Delivery">Cash on Delivery</option>
+                                    <option value="Online Payment">Online Payment</option>
+                                    <option value="Swipe on Payment">Swipe on Payment</option>
+                                    <option value="Bkash Payment">Bkash Payment</option>
+                            <option value="KBZPay" @if (old('paymentType', $payment->type) == 'Cash on Delivery') selected @endif>Cash on Delivery
                             </option>
-                            <option value="KBZ" @if (old('paymentType', $payment->type) == 'KBZ') selected @endif>KBZ
+                            <option value="KBZ" @if (old('paymentType', $payment->type) == 'Online Payment') selected @endif>Online Payment
                                 Account</option>
-                            <option value="WPay" @if (old('paymentType', $payment->type) == 'WPay') selected @endif>Wave
+                            <option value="WPay" @if (old('paymentType', $payment->type) == 'Swipe on Payment') selected @endif>Swipe on Payment
                                 Pay</option>
-                            <option value="YOMA" @if (old('paymentType', $payment->type) == 'YOMA') selected @endif>YOMA
+                            <option value="YOMA" @if (old('paymentType', $payment->type) == 'Bkash Payment') selected @endif>Bkash Payment
                                 Account</option>
                             <option value="AYA" @if (old('paymentType', $payment->type) == 'AYA') selected @endif>AYA
                                 Account</option>
-                            <option value="AYAPay" @if (old('paymentType', $payment->type) == 'AYAPay') selected @endif>AYA Pay
-                            </option>
-                            <option value="CB" @if (old('paymentType', $payment->type) == 'CB') selected @endif>CB
-                                Account</option>
-                            <option value="CBPay" @if (old('paymentType', $payment->type) == 'CBPay') selected @endif>CB Pay
-                            </option>
-                            <option value="APay" @if (old('paymentType', $payment->type) == 'APay') selected @endif>A Pay
-                            </option>
                         </select>
                         @error('paymentType')
                             <small class="invalid-feedback">{{ $message }}</small>

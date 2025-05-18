@@ -73,30 +73,12 @@
                         <h1 class="text-white">Our Products & Services</h1>
                         @foreach ($category as $item)
 
-                            <div class="d-flex justify-content-between products-name">
+                            <div class="d-flex justify-content-between products-name mb-3">
                                 <a class=" text-white" href="{{ route('shopList', $item->id) }}"><i class="text-white fa-solid fa-arrow-right"></i> {{ $item->name }}</a>
 
                             </div>
 
                         @endforeach
-                    </div>
-                    <div class="col-lg-4 text-end">
-                        <ul class="nav nav-pills d-inline-flex text-center mb-5">
-                            <li class="nav-item">
-                                <img src="{{ asset('customer/img/best-product-1.jpg') }}"
-                                    class="img-fluid bg-secondary rounded"
-                                    style="width: 100%; height: 400px; object-fit: cover;">
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 text-end">
-                        <ul class="nav nav-pills d-inline-flex text-center mb-5">
-                            <li class="nav-item">
-                            <img src="{{ asset('customer/img/best-product-2.jpg') }}"
-                                    class="img-fluid bg-secondary rounded"
-                                    style="width: 100%; height: 400px; object-fit: cover;">
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="tab-content" >

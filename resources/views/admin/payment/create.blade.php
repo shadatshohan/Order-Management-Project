@@ -22,15 +22,10 @@
                                 <select name="paymentType" id=""
                                     class="form-control @error('paymentType') is-invalid @enderror">
                                     <option value="">Choose your payment...</option>
-                                    <option value="KBZPay">KBZ Pay</option>
-                                    <option value="KBZ">KBZ Account</option>
-                                    <option value="WPay">Wave Pay</option>
-                                    <option value="YOMA">YOMA Account</option>
-                                    <option value="AYA">AYA Account</option>
-                                    <option value="AYAPay">AYA Pay</option>
-                                    <option value="CB">CB Account</option>
-                                    <option value="CBPay">CB Pay</option>
-                                    <option value="APay">A Pay</option>
+                                    <option value="Cash on Delivery">Cash on Delivery</option>
+                                    <option value="Online Payment">Online Payment</option>
+                                    <option value="Swipe on Payment">Swipe on Payment</option>
+                                    <option value="Bkash Payment">Bkash Payment</option>
                                 </select>
                             </div>
                             <div class="mb-3">
