@@ -1,7 +1,7 @@
 # Order Management System - Laravel
 
 An Order Management System built using PHP Laravel with role-based access control for **Super Admin**, **Admin**, and **User**. The application is deployed at:  
-🔗 [https://agora.naturalboostbd.com](https://agora.naturalboostbd.com)
+🔗<a href="https://agora.naturalboostbd.com" target="_blank">https://agora.naturalboostbd.com</a>
 
 ---
 
